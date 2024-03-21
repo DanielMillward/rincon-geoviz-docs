@@ -13,7 +13,7 @@ Shows a heatmap of the frequency of incidents by year (row) and month (column).
 
 **Added with:** `"month_year_heatmap"`
 
-.. image:: year_month_heatmap.png
+.. image:: images/heatmap.png
     :scale: 75 %
     :align: center
 
