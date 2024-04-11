@@ -55,4 +55,6 @@ Contents
    getting_started
    features
    troubleshooting
+   maintenance
+   roadmap
    

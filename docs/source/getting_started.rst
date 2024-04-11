@@ -12,6 +12,7 @@ For most tools GeoViz provides, you'll need (at least) columns representing:
 * Latitude (floats between -90 and 90)
 * Longitude (floats between -180 and 180)
 * Dates (in a format parseable with pandas' `parse_date functionality <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html/>`_.)
+* (optional) a description column in natural text
 
 If you want to follow along, download a dataset of pirate attacks here: `clean_asam.csv <https://github.com/rrc-byu/ds-capstone-2023-2024/blob/main/tests/data_files/clean_asam.csv>`_
 
@@ -34,7 +35,7 @@ Now, run the init command:
 
 You should see a new tab in your browser that looks like this:
 
-.. image:: init_screen.png
+.. image:: new_init.png
     :scale: 75 %
     :align: center
 
@@ -45,22 +46,16 @@ First things first, let's tell GeoViz which columns are which. Take a look at yo
     :align: center
 
 For now, all columns are required.
-Now, scroll down to the features section. We have a whole lot to look at! Try check a couple that look interesting:
+Now, scroll down to the features section. We have a whole lot to look at! Try checking a couple that look interesting:
 
-.. image:: checked_features.png
-    :scale: 75 %
-    :align: center
-
-For right now, the init page is incorrect: The feature customizations are required, and the hover columns are space separated and not comma separated. Here's what it should look like:
-
-.. image:: features_customizations.png
+.. image:: new_features.png
     :scale: 75 %
     :align: center
 
 If you selected some compute-heavy options, e.g. the NLP clustering, you might want to use caching. Try toggling the "Cache Results" one
 and putting a path where you want to store your data:
 
-.. image:: cache_options.png
+.. image:: new_cache.png
     :scale: 75 %
     :align: center
 
